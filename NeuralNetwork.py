@@ -44,4 +44,5 @@ if __name__ == "__main__":
     for i in range(1000):
         nn.feedforward()
         nn.backprop()
+    print('For inputs (0,0), (0,1), (1,0), and (1,1), respectively:')
     print(nn.output)
